@@ -1,1 +1,1 @@
-# holbertonschool-low_level_programming
+This project is intended to explain basic C concepts
