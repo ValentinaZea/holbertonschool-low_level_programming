@@ -9,11 +9,11 @@ int main(void)
 	char c;
 
 	c = 'A';
-	putchar ('\n');
 	while (c <= 'Z')
 	{
 	putchar(tolower(c));
 	c++;
+	putchar ('\n');
 	}
 	return (0);
 }
