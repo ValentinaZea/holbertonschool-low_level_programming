@@ -13,7 +13,7 @@ int main(void)
 	{
 	putchar(tolower(c));
 	c++;
-	putchar ('\n');
 	}
+	putchar ('\n');
 	return (0);
 }
