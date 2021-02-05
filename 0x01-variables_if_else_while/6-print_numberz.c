@@ -5,19 +5,11 @@
  */
 int main(void)
 {
-	int c;
-	int i;
+	char ch;
 
-	c = getchar();
-	while (c != EOF)
+	for (ch = 0; ch < 10; ch++)
 	{
-	for (i = 0; i < 10; i++)
-	{
-		if (c == i)
-		{
-		putchar(i);
-		}
-	}
+	putchar(ch);
 	}
 	printf("\n");
 	return (0);
