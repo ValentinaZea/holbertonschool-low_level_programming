@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-	char ch = '1';
+	int i;
 
-	for (ch = '0'; ch < '10'; ch++)
-	{
-	putchar(ch);
+	for (i = '0'; i <= '9'; i++)
+	{	
+	putchar(i);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
