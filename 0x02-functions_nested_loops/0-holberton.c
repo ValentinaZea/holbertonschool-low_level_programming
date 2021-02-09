@@ -2,11 +2,10 @@
 /**
  * main - Print message
  *
- * Return: 0 
+ * Return: 0
  */
-int main (void)
+int main(void)
 {
-
 	char holb[] = "Holberton\n";
 	int i;
 
