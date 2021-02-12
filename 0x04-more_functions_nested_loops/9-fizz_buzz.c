@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
  * main - Prints 1-100
+ *
+ * Return: 0
  */
-int main (void)
-{	
+int main(void)
+{
 	int i;
 
 	for (i = 1 ; i <= 100 ; i++)
@@ -27,5 +29,3 @@ int main (void)
 	}
 	return (0);
 }
- 
- 
